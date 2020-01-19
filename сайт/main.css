@@ -1,0 +1,114 @@
+/*верхная часть*/
+*{
+	font-family: PT+Sans;
+}
+.top{
+
+
+
+	height: 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo > img{
+width: 140px;
+height: 120px;
+margin-left: 50px;
+
+}
+.nav{
+	
+	width: 70%;
+	justify-content: flex-end;
+	display: flex;
+	margin-right: 115px;
+
+	
+}
+.nav > a{
+	margin-left: 40px;
+	color: black;
+	text-decoration: none;
+	font-size: 25px;
+	background-color: rgb(147,255,255);
+	border-radius:8px; 
+	padding: 10px;
+}/*конец верхней части*/
+/*слайдер*/
+.header{
+	height: 850px;
+	background-size: cover;
+	background-image: url(https://chip.travel/uploads/blog/i/J6NIYA3Ake59ec265676b39.jpg); 
+	border-radius: 30px;
+	box-shadow: 20px 20px 30px green;
+		transition: 5s;
+}
+.header:hover{
+	/*background-size: 150% 130%;*/
+	background-position: center;
+
+
+}
+.dark {
+	background-color: rgba(0,0,0,0.6);
+	height: 850px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 30px;
+
+}
+.content{
+	color:white;
+	font-family: PT+Sans;
+	text-align: center;
+
+}
+.content >h1{
+font-size: 50px;
+}
+.content >p{
+font-size:25px;
+}
+
+.content >button{
+	height: 60px;
+	width: 220px;
+	font-size: 25px;
+
+}
+.left{
+	background-color: transparent;
+	border: 2px solid white;
+	color: white;
+
+}
+
+.right{
+background-color: rgb(0,137,137);
+border: none;
+color: white;
+}
+/*конец слайдера*/
+.top1{
+	text-align: center;
+	margin-bottom: 120px;
+	width: 44%;
+	margin: auto;
+
+}
+.bot1{
+	display: flex;
+	justify-content: space-around;
+
+}
+.bot1:hover{
+	background-size: 150% 130%;
+}
+
+.bot1 >div{
+	text-align: center;
+	width: 20%;
+}
+/*конец страница 1*/
